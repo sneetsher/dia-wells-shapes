@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+xmlns:svg="http://www.w3.org/2000/svg">
+	<name>SectionNoEdge</name>
+	<icon>sectionnoedge.png</icon>
+	<aspectratio type="free"/>
+	<can-parent />
+	<default-width>6.8</default-width>
+	<default-height>3</default-height>
+	<textbox x1="6.9" y1="2.5" x2="11.9" y2="3" resize="no" align="left" />
+	<connections>
+		<point x="0" y="0" />
+		<point x="6.8" y="0" />
+		<point x="0" y="3" />
+		<point x="6.8" y="3" />
+		
+		<point x="0" y="0.75" />
+		<point x="6.8" y="0.75" />
+		<point x="0" y="1.5" />
+		<point x="6.8" y="1.5" />
+		<point x="0" y="2.25" />
+		<point x="6.8" y="2.25" />
+    </connections>
+	<svg:svg>
+		<svg:rect  x="0.4" y="0" width="6" height="3" style="stroke: none; stroke-width: 0" />
+		<svg:path d="M0,0 v3 M6.8,3 v-3" style="stroke: #bbbbbb; stroke-width: 0.4; stroke-pattern: dashed; stroke-dashlength: 0.05;"/>
+	</svg:svg>
+</shape>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Wells</name>
+  <name xml:lang="ar">أبار</name>
+  <description>Basic wells structures</description>
+  <description xml:lang="ar">بنية بسيطة للأبار</description>
+  <contents>
+    <object name="Section">
+      <description>Well section</description>
+	  <description xml:lang="ar">مرحلة</description>
+    </object>
+    <object name="Casing">
+      <description>Well casing</description>
+	  <description xml:lang="ar">غلاف</description>
+    </object>
+	
+    <object name="SectionNoEdge">
+      <description>Section without bottom edge</description>
+	  <description xml:lang="ar">مرحلة بلا حافة القاع</description>
+    </object>
+    <object name="CasingNoShoe">
+      <description>Casing without shoe</description>
+	  <description xml:lang="ar">غلاف بلا حذاء</description>
+    </object>
+	<object name="SectionSideTrack">
+      <description>Section side track</description>
+	  <description xml:lang="ar">مرحلة مسار جانبي</description>
+    </object>
+	<object name="CasingSideTrack">
+      <description>Casing side track</description>
+	  <description xml:lang="ar">غلاف مسار جانبي</description>
+    </object>
+	<object name="Frame">
+      <description>Frame</description>
+	  <description xml:lang="ar">إطار</description>
+    </object>
+  </contents>
+</sheet>

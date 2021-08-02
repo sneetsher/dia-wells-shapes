@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Frame</name>
+	<icon>frame.png</icon>
+	<aspectratio type="free"/>
+	<can-parent />
+	<default-width>10</default-width>
+	<default-height>15</default-height>
+	<textbox x1="0.5" y1="0.2" x2="10.5" y2="1" resize="no" align="left" />
+	<connections>
+		<point x="0" y="0" />
+		<point x="0" y="15" />
+		<point x="10" y="0" />
+		<point x="10" y="15" />
+    </connections>
+	<svg:svg>
+		<svg:rect  x="0" y="0" width="10" height="15" style="stroke: none; stroke-width: 0" />
+		<svg:path d="M0,0 v15 h10 v-15 h-10" style="stroke: #bbbbbb; stroke-width: 0.4; stroke-pattern: dash-dot-dot; stroke-dashlength: 0.5;"/>
+	</svg:svg>
+</shape>

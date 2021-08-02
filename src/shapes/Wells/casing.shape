@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Casing</name>
+	<icon>casing.png</icon>
+	<aspectratio type="free"/>
+	<can-parent />
+	<default-width>6</default-width>
+	<default-height>3</default-height>
+	<textbox x1="6.4" y1="2.5" x2="11.4" y2="3" resize="no" align="left" />
+	<connections>
+		<point x="0" y="0" />
+		<point x="6" y="0" />
+		<point x="-0.3" y="3" />
+		<point x="6.3" y="3" />
+		<point x="0" y="3" />
+		<point x="6" y="3" />
+		
+		<point x="0" y="0.75" />
+		<point x="6" y="0.75" />
+		<point x="0" y="1.5" />
+		<point x="6" y="1.5" />
+		<point x="0" y="2.25" />
+		<point x="6" y="2.25" />
+    </connections>
+	<svg:svg>
+		<svg:rect  x="0" y="0" width="6" height="3" style="stroke: none; stroke-width: 0" />
+		<svg:line x1="0" y1="0" x2="0" y2="3" />
+		<svg:line x1="6" y1="0" x2="6" y2="3" />
+		<svg:g subshape="true" v_anchor="fixed.bottom" h_anchor="fixed.right" default_scale="1.0">
+			<svg:polygon points="6.3,3 6,3 6,2.7" style="stroke: none; fill: #000000;" />
+		</svg:g>
+		<svg:g subshape="true" v_anchor="fixed.bottom" h_anchor="fixed.left" default_scale="1.0">
+			<svg:polygon points="-0.3,3 0,3 0,2.7" style="stroke: none; fill: #000000;" />
+		</svg:g>
+	</svg:svg>
+</shape>
